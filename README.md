@@ -1,18 +1,22 @@
-# Wickenico Wailbrew
+# homebrew-wailbrew
 
-## How do I install these formulae?
+Einfache Installation der macOS-App **WailBrew** über Homebrew Cask.
 
-`brew install wickenico/wailbrew/<formula>`
+## Installation
 
-Or `brew tap wickenico/wailbrew` and then `brew install <formula>`.
+    brew tap wickenico/wailbrew
+    brew install --cask wailbrew
 
-Or, in a `brew bundle` `Brewfile`:
+## Update
 
-```ruby
-tap "wickenico/wailbrew"
-brew "<formula>"
-```
+    brew update
+    brew upgrade --cask wailbrew
 
-## Documentation
+## Deinstallation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+    brew uninstall --cask wailbrew
+
+## Hinweise für Maintainer
+
+    brew style --fix wailbrew
+    brew audit --strict wailbrew
