@@ -1,6 +1,6 @@
 # homebrew-wailbrew
 
-Einfache Installation der macOS-App **WailBrew** über Homebrew Cask.
+Simple installation for macOS-App **WailBrew** with Homebrew Cask.
 
 ## Installation
 
@@ -12,11 +12,11 @@ Einfache Installation der macOS-App **WailBrew** über Homebrew Cask.
     brew update
     brew upgrade --cask wailbrew
 
-## Deinstallation
+## Uninstall
 
     brew uninstall --cask wailbrew
 
-## Hinweise für Maintainer
+## Hint for Maintainers
 
     brew style --fix wailbrew
     brew audit --strict wailbrew
