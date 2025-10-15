@@ -8,12 +8,9 @@ cask "wailbrew" do
   homepage "https://github.com/wickenico/WailBrew"
 
   on_intel do
-    # Intel Mojave (10.14)
     depends_on macos: ">= :mojave"
   end
-
   on_arm do
-    # Apple Silicon Big Sur (11)
     depends_on macos: ">= :big_sur"
   end
 
