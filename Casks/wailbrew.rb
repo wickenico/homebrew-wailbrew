@@ -6,7 +6,7 @@ cask "wailbrew" do
     depends_on macos: ">= :big_sur"
   end
   on_intel do
-    depends_on macos: ">= :mojave"
+    depends_on macos: ">= :big_sur"
   end
 
   url "https://github.com/wickenico/WailBrew/releases/download/v#{version}/wailbrew-v#{version}.zip"
