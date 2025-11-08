@@ -1,6 +1,6 @@
 cask "wailbrew" do
-  version "0.7.14"
-  sha256 "2ed5d20966cf79d16c722871bd8ee74519ad4c2530d6a454c40179a3a18b8214"
+  version "0.8.0"
+  sha256 "b2ef39292ba38df760dc0c65b50dae1b3bb7e0e501a9af0ebcae9f91fee04384"
 
   on_arm do
     depends_on macos: ">= :big_sur"
