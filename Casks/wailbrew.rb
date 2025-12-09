@@ -11,6 +11,11 @@ cask "wailbrew" do
 
   app "WailBrew.app"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   zap trash: [
     "~/Library/Application Support/WailBrew",
     "~/Library/Preferences/dev.wailbrew.plist",
