@@ -1,22 +1,14 @@
-# homebrew-wailbrew
+# homebrew-wailbrew (retired)
 
-Simple installation for macOS-App **WailBrew** with Homebrew Cask.
+WailBrew is in the official Homebrew cask repository. This tap is no longer maintained.
 
-## Installation
+## Install
 
-    brew tap wickenico/wailbrew
     brew install --cask wailbrew
 
-## Update
+## Already using this tap?
 
-    brew update
-    brew upgrade --cask wailbrew
+`tap_migrations.json` points `wailbrew` to `homebrew/cask`, so `brew update` moves an existing
+installation over automatically. Afterwards you can remove the tap:
 
-## Uninstall
-
-    brew uninstall --cask wailbrew
-
-## Hint for Maintainers
-
-    brew style --fix wailbrew
-    brew audit --strict wailbrew
+    brew untap wickenico/wailbrew
